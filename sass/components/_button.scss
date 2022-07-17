@@ -1,0 +1,21 @@
+.button{
+  width: 219px;
+  height: 63px;
+  background-color: var(--button-color);
+  border: 0px;
+  border-radius: 10px;
+  font-family: var(--main-font);
+  font-size: 14.4px;
+  line-height: 0.972;
+  text-align: center;
+  color: var(--second-color);
+  position: relative;
+  &:hover,
+  &:focus{
+    background-color: var(--second-color);
+    color: var(--main-color);
+    border: 3px solid var(--button-color);
+    cursor: pointer;
+    font-weight: 600;
+  }
+}

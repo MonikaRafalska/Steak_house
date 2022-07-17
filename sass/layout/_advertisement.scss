@@ -1,0 +1,118 @@
+@media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+        .advertisement{
+          &__div{
+            &--meal-theme {
+              background-image: url(../../images/advertisement/meal@2x.png);
+            }
+            &--app-theme {
+              background-image: url(../../images/advertisement/vegan_app@2x.png);
+            }
+          }
+        }
+      }
+
+.advertisement {
+  padding-bottom: 45px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+  &__div {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    padding-left: 16px;
+    color: var(--second-color);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    &--meal-theme {
+      background-image: url(../../images/advertisement/meal.png);
+    }
+    &--app-theme {
+      background-image: url(../../images/advertisement/vegan_app.png);
+    }
+    &:first-child {
+      margin-bottom: 10px;
+    }
+  }
+  &__name {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 0.912;
+    margin-bottom: 29px;
+    max-width: 289px;
+  }
+  &__description {
+    font-family: "Sofia Pro";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    max-width: 301px;
+    &--meal {
+      margin-bottom: 32px;
+    }
+    &--app {
+      margin-bottom: 14px;
+    }
+  }
+  &__list {
+    display: flex;
+    list-style: none;
+    margin-bottom: 24px;
+  }
+  &__item {
+    &:nth-child(2) {
+      margin-left: 12.52px;
+      margin-right: 14.31px;
+      background: linear-gradient(180deg, #18bffb 0%, #2072f3 100%);
+      border-radius: 5px;
+      width: 24.97px;
+      height: 24.97px;
+      padding: 4.75px 3.56px 4.4px 3.41px;
+    }
+  }
+  &__item {
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      stroke: black;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .advertisement {
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+    &__div {
+      padding-top: 82px;
+      padding-bottom: 0;
+      padding-left: 25px;
+      width: 916px;
+      height: 416px;
+      &:first-child {
+        margin-right: 16px;
+        margin-bottom: 0px;
+      }
+    }
+    &__name {
+      font-size: 35px;
+      line-height: 32px;
+    }
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .advertisement{
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-bottom: 90px;
+    &__div{
+      padding-left: 125px;
+    }
+  }
+}

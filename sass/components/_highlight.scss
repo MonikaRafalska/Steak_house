@@ -1,0 +1,10 @@
+.highlight{
+  width: 100%;
+  color: var(--second-color);
+  &--dark-theme{
+    background-color: var(--main-color);
+  }
+  &--light-theme{
+    background-color: var(--button-color);
+  }
+}

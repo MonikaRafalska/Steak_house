@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&  display=swap" rel="stylesheet">
+  <link href="//db.onlinewebfonts.com/c/9126ab31ea89886fdf039582d99d9bde?family=Sofia+Pro" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/5e099073a68cfe1568410d07e0320322?family=Sofia+Pro" rel="stylesheet" type="text/css"/>
+  <link href="//db.onlinewebfonts.com/c/05428692254b58ccb090358a3dfecfff?family=Sofia+Pro" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="shortcut icon" href="./images//logo/logo.png">
+
+  <title>Steak House</title>
+</head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <picture>
+      <source srcset="./images/logo/logo.webp 1x, ./images/logo/logo@2x.webp 2x" media="(min-width:1024px)" type="image/webp">
+      <img class="logo" srcset="./images/logo/logo.png 1x, ./images/logo/logo@2x.png 2x" src="./images/logo/logo.png" alt="Steak House logo"></img>
+      </picture>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#steaks">Steaks</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#burgers">Burgers</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#french_fries">French fries</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#drinks">Drinks</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#gdzie_dowozimy">Gdzie dowozimy?</a>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- HEADER BURGER -->
+      <button mobile-menu-open class="modal__open" type="button">
+        <svg class="modal__open-icon" width="24" height="16">
+          <use href="./images/icons.svg#icon-menu_burger"></use>
+        </svg>
+      </button>
+      <!-- HEADER MARKET -->
+      <ul class="market">
+        <li class="market__item">
+          <a class="market__link" href="#moje_konto">
+            <svg class="market__icon" width="14" height="15.53">
+              <use href="./images/icons.svg#icon-my_account"></use>
+            </svg>
+            Moje konto
+          </a>
+        </li>
+        <li class="market__item">
+          <a class="market__link" href="#koszyk">
+            <svg class="market__icon" width="18" height="16">
+              <use href="./images/icons.svg#icon-shopping_basket"></use>
+            </svg>
+            Koszyk
+          </a>
+        </li>
+        <li class="market__item">
+          <a class="market__link market__link--theme" href="#zamow">
+          <svg class="market__icon" width="14" height="10">
+              <use href="./images/icons.svg#icon-order"></use>
+          </svg>
+          Zamów
+          </a>
+        </li>
+      </ul>
+  </header>
+  <main>
+    <!-- ===== SWIPER/HERO SECTION ===== -->
+    <section class="hero section">
+          <div class="swiper">
+          <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="swiper__hero">
+            <h1 class="swiper__header"><span class="highlight highlight--dark-theme">Rabat 10%</span> na pierwsze zamówienie!</h1>
+              <p class="swiper__description">Do 20 stycznia złóż zamówienie na stronie i skorzystaj z <span class="swiper__description--bold-theme">promocji -10%.</span> Spiesz się, czas trwania promocji do końca lutego.</p>
+              <button class="button" type="button">Zamów online</button>
+              </div>
+              <img class="swiper__img" srcset="./images/swiper/steak.png 1x, ./images/swiper/steak@2x.png 2x" src="./images/swiper/steak.png" alt="steak"></img>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__hero">
+            <h1 class="swiper__header"><span class="highlight highlight--dark-theme">Rabat 10%</span> na pierwsze zamówienie!</h1>
+              <p class="swiper__description">Do 20 stycznia złóż zamówienie na stronie i skorzystaj z <span class="swiper__description--bold-theme">promocji -10%.</span> Spiesz się, czas trwania promocji do końca lutego.</p>
+              <button class="button" type="button">Zamów online</button>
+              </div>
+              <img class="swiper__img" srcset="./images/swiper/steak.png 1x, ./images/swiper/steak@2x.png 2x" src="./images/swiper/steak.png" alt="steak"></img>           
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper__hero">
+            <h1 class="swiper__header"><span class="highlight highlight--dark-theme">Rabat 10%</span> na pierwsze zamówienie!</h1>
+              <p class="swiper__description">Do 20 stycznia złóż zamówienie na stronie i skorzystaj z <span class="swiper__description--bold-theme">promocji -10%.</span> Spiesz się, czas trwania promocji do końca lutego.</p>
+              <button class="button" type="button">Zamów online</button>
+              </div>
+              <img class="swiper__img" srcset="./images/swiper/steak.png 1x, ./images/swiper/steak@2x.png 2x" src="./images/swiper/steak.png" alt="steak"></img>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        
+      </header>
+    </section>
+    <!-- ===== PARTNERS SECTION ===== -->
+    <section class="partners section">
+      <ul class='partners__list' id="flavoursContainer">
+        <li class="partners__item">
+          <img class="partners__img" src="./images//partners/pyszne_pl.png" alt="Logo Pyszne.pl">
+        </li>
+        <li class="partners__item">
+          <img class="partners__img" src="./images//partners/deli_go.png" alt="Logo Deli.go">
+        </li>
+        <li class="partners__item">
+          <img class="partners__img" src="./images/partners/glovo.png" alt="Logo Glovo App">
+        </li>
+        <li class="partners__item">
+          <img class="partners__img" src="./images//partners/uber_eats.png" alt="Logo Uber Eats">
+        </li>
+        <li class="partners__item">
+          <img class="partners__img" src="./images//partners/bolt_food.png" alt="Logo Bolt Tood">
+        </li>
+      </ul>
+    </section>
+    <!-- ===== ADVERTISEMENT ===== -->
+    <section class="section">
+        <div class="advertisement">
+          <div class="advertisement__div advertisement__div--meal-theme">
+            <h2 class="advertisement__name">Zestaw dla 3 osób</h2>
+            <p class="advertisement__description advertisement__description--meal">Razem smakuje lepiej! Zamów zestawy obiadowy dla 3 osób już od <span class="highlight highlight--dark-theme"> 39 zł </span></p>
+          <button class="button" type="button">Zamów online</button>
+          </div>
+
+          <div class="advertisement__div advertisement__div--app-theme">
+             <h2 class="advertisement__name">UberEats</h2>
+            <p class="advertisement__description advertisement__description--app">Zamawiaj w aplikacji <span class="highlight highlight--light-theme">10% taniej.</span> Pobierz aplikację UberEats już dziś.</p>
+            <ul class="advertisement__list">
+              <li class="advertisement__item">
+                <svg class="advertisement__icon" width="25.997" height="25.97">
+              <use href="./images/icons.svg#icon-play_app"></use>
+            </svg>
+              </li>
+              <li class="advertisement__item">
+                <svg class="advertisement__icon" width="18.63" height="16.46">
+              <use href="./images/icons.svg#icon-apple"></use>
+            </svg>
+              </li>
+              <li class="advertisement__item">
+                <svg class="advertisement__icon" width="25.97" height="25.97">
+              <use href="./images/icons.svg#icon-huawei_app"></use>
+            </svg>
+              </li>
+            </ul>
+          <button class="button" type="button">Zamów online</button>
+          </div>
+        </div>
+    </section>
+  </main>
+  <!-- ===== MOBILE MENU - MODAL WINDOW ===== -->
+   <div mobile-menu class="mobile-menu mobile-menu--is-hidden">
+      <div mobile-menu-close class="modal__btn">
+        <button type="button" class="modal__close">
+          <svg class="modal__close-icon" width="24" height="16">
+            <use href="./images/icons.svg#icon-button-close"></use>
+          </svg>
+        </button>
+      </div>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="#steaks">Steaks</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#burgers">Burgers</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#french_fries">French fries</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#drinks">Drinks</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#gdzie_dowozimy">Gdzie dowozimy?</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#kontakt">Kontakt</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#moje_konto">
+            <svg class="menu__icon" width="14" height="15.53">
+              <use href="./images/icons.svg#icon-my_account"></use>
+            </svg>Moje konto</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#koszyk">
+            <svg class="menu__icon" width="18" height="16">
+              <use href="./images/icons.svg#icon-shopping_basket"></use>
+            </svg>Koszyk</a>
+        </li>
+      </ul>
+      <button class="button" type="button">
+        Zamów</button>
+    </div>
+
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/swiper.js" defer type="module"></script>
+  <script src="./js/mobile_menu.js" defer type="module"></script>
+  <script src="./js/partners_atuo_hide.js" defer type="module"></script>
+</body>
+</html>
