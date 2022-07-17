@@ -22,6 +22,7 @@
 .modal__open{
   color: var(--second-color);
   border: none;
+  background-color: var(--second-color);
   &:hover,
   &:focus{
     fill: var(--button-color);

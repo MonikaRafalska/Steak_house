@@ -72,10 +72,10 @@ button {
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .advertisement__div--meal-theme {
-    background-image: url(../../images/advertisement/meal@2x.png);
+    background-image: url(../images/advertisement/meal@2x.png);
   }
   .advertisement__div--app-theme {
-    background-image: url(../../images/advertisement/vegan_app@2x.png);
+    background-image: url(../images/advertisement/vegan_app@2x.png);
   }
 }
 
@@ -98,11 +98,11 @@ button {
 }
 
 .advertisement__div--meal-theme {
-  background-image: url(../../images/advertisement/meal.png);
+  background-image: url(../images/advertisement/meal.png);
 }
 
 .advertisement__div--app-theme {
-  background-image: url(../../images/advertisement/vegan_app.png);
+  background-image: url(../images/advertisement/vegan_app.png);
 }
 
 .advertisement__div:first-child {
@@ -468,6 +468,7 @@ button {
 .modal__open {
   color: var(--second-color);
   border: none;
+  background-color: var(--second-color);
 }
 
 .modal__open:hover, .modal__open:focus {
