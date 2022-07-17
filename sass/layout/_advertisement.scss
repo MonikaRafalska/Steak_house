@@ -46,7 +46,7 @@
     max-width: 289px;
   }
   &__description {
-    font-family: "Sofia Pro";
+    font-family: var(--main-font);
     font-weight: 400;
     font-size: 20px;
     line-height: 1.6;
@@ -61,7 +61,7 @@
   &__list {
     display: flex;
     list-style: none;
-    margin-bottom: 15px;
+    margin-bottom: 24px;
   }
   &__item {
     &:nth-child(2) {
