@@ -4,10 +4,10 @@
         .advertisement{
           &__div{
             &--meal-theme {
-              background-image: url(../../images/advertisement/meal@2x.png);
+              background-image: url(./../images/advertisement/meal@2x.png);
             }
             &--app-theme {
-              background-image: url(../../images/advertisement/vegan_app@2x.png);
+              background-image: url(./../images/advertisement/vegan_app@2x.png);
             }
           }
         }
