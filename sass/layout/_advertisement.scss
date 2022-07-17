@@ -4,10 +4,10 @@
         .advertisement{
           &__div{
             &--meal-theme {
-              background-image: url(./../images/advertisement/meal@2x.png);
+              background-image: url(../images/advertisement/meal@2x.png);
             }
             &--app-theme {
-              background-image: url(./../images/advertisement/vegan_app@2x.png);
+              background-image: url(../images/advertisement/vegan_app@2x.png);
             }
           }
         }
@@ -28,10 +28,10 @@
     background-size: cover;
     border-radius: 5px;
     &--meal-theme {
-      background-image: url(./../images/advertisement/meal.png);
+      background-image: url(../images/advertisement/meal.png);
     }
     &--app-theme {
-      background-image: url(./../images/advertisement/vegan_app.png);
+      background-image: url(../images/advertisement/vegan_app.png);
     }
     &:first-child {
       margin-bottom: 10px;
