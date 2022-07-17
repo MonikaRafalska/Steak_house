@@ -137,7 +137,7 @@ button {
 .advertisement__list {
   display: flex;
   list-style: none;
-  margin-bottom: 24px;
+  margin-bottom: 15px;
 }
 
 .advertisement__item:nth-child(2) {
@@ -450,8 +450,8 @@ button {
   z-index: 2;
   top: 0;
   right: 0;
-  width: 290px;
-  height: 100vh;
+  width: 250px;
+  min-height: 100vh;
   padding: 21px;
   background-color: var(--main-color);
   transition-property: opacity, visibility;
