@@ -1,6 +1,6 @@
 $(function () {
-  var tickerLength = $(".partners ul li").length;
-  var tickerHeight = $(".partners ul li").outerHeight();
+  const tickerLength = $(".partners ul li").length;
+  const tickerHeight = $(".partners ul li").outerHeight();
   $(".partners ul li:last-child").prependTo(".partners ul");
   $(".partners ul").css("marginLeft", -tickerLength);
   function moveLeft() {
